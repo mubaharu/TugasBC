@@ -4,7 +4,7 @@ const chrome = require('selenium-webdriver/chrome')
 
 describe ('Login and Sorting Test via Chrome', function () {
     let driver
-    setting = new chrome.Options()
+    let setting = new chrome.Options()
     setting.addArguments('--incognito')
 
     before(async function () {
